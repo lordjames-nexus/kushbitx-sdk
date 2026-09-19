@@ -19,8 +19,12 @@ Paid endpoints use x402 and require explicit payment. There is no subscription. 
 
 Node.js 22 or later:
 
+```bash
+npm install @kushbitx/sdk
+```
+
 ```js
-import { KushBitxClient } from './kushbitx.mjs';
+import { KushBitxClient } from '@kushbitx/sdk';
 
 const kushbitx = new KushBitxClient();
 
